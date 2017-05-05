@@ -2,7 +2,7 @@
 
 try catch 中使用异步方法，不会捕捉到异步发生的错误，只有添加Task.Wait类的方法，才会捕捉到错误
 
-```
+```c#
 try
 {
     Task t1 = Task.Run(() =>
